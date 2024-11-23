@@ -14,6 +14,12 @@ const config: Config = {
       app: "min-content max-content",
     },
     extend: {
+      fontFamily: {
+        sans: "var(--font-inter)",
+      },
+      gridTemplateRows: {
+        app: "min-content max-content",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
